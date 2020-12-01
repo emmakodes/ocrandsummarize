@@ -49,6 +49,12 @@
     </task>
     <servers />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="179" width="559" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606817490445">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="398" y="179" width="559" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.702@0.27.1366.702" timestamp="1606817490445" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
