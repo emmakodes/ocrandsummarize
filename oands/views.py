@@ -30,7 +30,8 @@ def index(request):
                 path = settings.MEDIA_ROOT
                 pathz = path + "/images/" + image
 
-                text = pytesseract.image_to_string(Image.open(pathz))
+                custom_config = r'-l eng+pol --psm 6'
+                text = pytesseract.image_to_string(Image.open(pathz), config=custom_config)
                 text = text.encode("ascii", "ignore")
                 text = text.decode()
 
